@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Js.js"></script>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+   
+</head>
+<body>
+
+  <br /><br /> <h1 class="title">My Shopping List</h1>
+
+    <div class="shopping">
+      <table border="1">
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Add to Cart</th>
+            </tr>
+            <tr>
+                <td>Eggs</td>
+                <td>$2.00</td>
+                <td>1</td>
+                <td><button onclick="addItem('Eggs',2.00,1)">Add Item</button></td>
+
+            </tr>
+            <tr>
+                <td>Milk</td>
+                <td>$1.50</td>
+                <td>1</td>
+                <td><button onclick="addItem('Milk',1.50,1)">Add Item</button></td>
+
+            </tr>
+            <tr>
+                <td>Cheddar Cheese</td>
+                <td>$3.00</td>
+                <td>1</td>
+                <td><button onclick="addItem('Cheddar Cheese',3.00,1)">Add Item</button></td>
+
+            </tr>
+            <tr>
+                <td>Pie Crust</td>
+                <td>$3.00</td>
+                <td>1</td>
+                <td><button onclick="addItem('Pie Crust',3.00,1)">Add Item</button></td>
+            </tr>
+            <tr>
+                <td>Yogurt</td>
+                <td>$3.00</td>
+                <td>1</td>
+                <td><button onclick="addItem('Yogurt',3.00,1)">Add Item</button></td>
+            </tr>
+            <tr>
+                <td>Cookies</td>
+                <td>$4.25</td>
+                <td>1</td>
+                <td><button onclick="addItem('Cookies',4.25,1)">Add Item</button></td>
+            </tr>
+            <tr>
+                <td>Cubed Ham</td>
+                <td>$5.25</td>
+                <td>1</td>
+                <td><button onclick="addItem('Cubed Ham',5.25,1)">Add Item</button></td>
+            </tr>
+            <tr>
+                <td>Spinach</td>
+                <td>$2.25</td>
+                <td>1</td>
+                <td><button onclick="addItem('Spinach',5.25,1)">Add Item</button></td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="sum">
+        <table id="cart">
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </table>
+        <table id="TotalCost">
+            <tr>
+                <th><button onclick="TotalCost()">Total Cost</button></th>
+                <th>Total Cost</th>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
